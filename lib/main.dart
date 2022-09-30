@@ -20,7 +20,7 @@ addToDo(String item){
   
   setState(() {
     listToDo.add(item);
-    val=Null;
+    val="";
     
   });
 }
